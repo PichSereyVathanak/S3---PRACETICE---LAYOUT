@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ccc;
+}
+
+.container {
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #68686a;
+    border-radius: 10px;
+}
+
+.profile {
+    display: flex;
+    gap: 10px;
+}
+
+.pic-profile img {
+    border-radius: 50%;
+    flex-grow: 0;
+
+}
+
+.name-profile {
+    flex-grow: 1;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+}
+
+.name h3 {
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+.name .more {
+    align-self: center;
+}
+
+.name .more:hover {
+    width: 20px;
+    color: white;
+}
+
+.date {
+    font-weight: 400;
+    color: #ccc;
+}
+
+.caption {
+    color: #fff;
+}
+
+.pic-content img {
+    border-radius: 10px;
+}
+
+.like-comment-share {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.button {
+    display: flex;
+    gap: 10px;
+}
+
+.button:hover,
+.icons:hover,
+.icons:focus {
+    color: white;
+}
+
+.comment {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+.profile-comment img {
+    border-radius: 50%;
+}
+
+.write-comment {
+    flex-grow: 1;
+    align-self: center;
+}
+
+.write-comment input {
+    height: 30px;
+    width: 400px;
+    flex-grow: 1;
+    border-radius: 10px;
+    margin-left: 20px;
+    border: none;
+    padding: 5px 10px ;
+}
